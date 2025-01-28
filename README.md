@@ -1,15 +1,27 @@
-Implementation of Stablecoin Payment Integration for a Simplistic Web Application ( EVM )
+# Stablecoin Payment Integration for a Simplistic Web Application (EVM)
 
-> > npx create-react-app stablecoin-payment
-> > cd stablecoin-payment
-> > npm install
-> > To integrate wallet connection functionality using a library Ethers.js
+This project demonstrates the implementation of a stablecoin (USDC) payment integration for a React-based web application on the Ethereum Virtual Machine (EVM). The application enables users to connect their wallets, check their USDC balance, and make payments.
 
-> > npm install ethers
+---
 
-created the file app.js for entire functionality
-style the app.js with css (app.css)
+##Create React-App
+```bash
+npx create-react-app stablecoin-payment
+cd stablecoin-payment
+npm install
 
-TO RUN
+###2.To integrate wallet connection functionality, install the Ethers.js library:
 
-> > npm start
+npm install ethers
+
+##3.
+App.js: Contains the entire functionality for wallet connection, USDC balance fetching, and payment processing.
+App.css: Styles the application UI.
+
+##4.Ensure you are in the project directory:
+
+cd stablecoin-payment
+
+##5.Start the development server:
+
+npm start
