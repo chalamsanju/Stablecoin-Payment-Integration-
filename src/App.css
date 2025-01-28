@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.wallet-info {
+  margin-bottom: 20px;
+}
+
+.wallet-info p {
+  margin: 5px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.connect-btn {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.buy-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.receipt {
+  margin-top: 20px;
+  padding: 10px;
+  background: #e8ffe8;
+  border: 1px solid #b2ffb2;
+  border-radius: 5px;
+}
