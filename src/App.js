@@ -11,8 +11,8 @@ const App = () => {
   const [loading, setLoading] = useState(false);
 
   // USDC contract address on Sepolia
-  let usdcContractAddress = "0x94a9D9AC8a22534E3FaCa9F4e7F2E2cf85d5E4C8"; // Replace with verified Sepolia USDC address
-  const storeWalletAddress = "0x34992c9A838D6143252eFC13e8efD33bA195E44F"; // Replace with store's wallet address
+  let usdcContractAddress = "0x94a9D9AC8a22534E3FaCa9F4e7F2E2cf85d5E4C8"; //  verified Sepolia USDC address
+  const storeWalletAddress = "0x34992c9A838D6143252eFC13e8efD33bA195E44F"; // store's wallet address
   const tShirtPrice = 25; // Price in USDC
   const usdcAbi = [
     "function balanceOf(address owner) view returns (uint256)",
@@ -20,7 +20,7 @@ const App = () => {
     "function transfer(address to, uint256 amount) returns (bool)",
   ];
 
-  // Validate and fix checksum for the contract address
+ 
   try {
     usdcContractAddress = ethers.getAddress(usdcContractAddress);
     console.log("Validated USDC Contract Address:", usdcContractAddress);
